@@ -1,0 +1,16 @@
+{
+  "name": "discord_translate_bot",
+  "version": "0.1.0",
+  "main": "bot.js",
+  "engines": {
+    "node": "8.9.3"
+  },
+ "scripts": {
+     "start": "node bot.js"
+ },
+  "dependencies": {
+    "@google-cloud/translate": "^1.1.0",
+    "discord.js": "^11.2.1",
+    "request": "^2.83.0"
+  }
+}
